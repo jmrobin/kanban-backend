@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: kanban-backend
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/kanban?verifyServerCertificate=false&useSSL=true
+    username: dev
+    password: 
+
+server:
+  port: 8384
