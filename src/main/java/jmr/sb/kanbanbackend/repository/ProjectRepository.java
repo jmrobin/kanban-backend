@@ -4,7 +4,7 @@ import org.springframework.data.repository.CrudRepository;
 
 import jmr.sb.kanbanbackend.domain.Project;
 
-public interface ProjectRepository extends CrudRepository<Long, Project>
+public interface ProjectRepository extends CrudRepository<Project, Long>
 {
 
 }
